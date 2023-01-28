@@ -19,5 +19,9 @@
   },
   "scripts": {
     "wdio": "wdio run ./wdio.conf.js"
+  },
+  "dependencies": {
+    "@wdio/allure-reporter": "^8.3.0",
+    "allure-commandline": "^2.20.1"
   }
 }
