@@ -1,3 +1,4 @@
+// this allows autocomplete for wdio
 {
     "compilerOptions": {
         "types": [

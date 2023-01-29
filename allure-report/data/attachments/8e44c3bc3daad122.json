@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//span[text()=\"Total:\"]/../following-sibling::td"
+}

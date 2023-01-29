@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()=\"Flat Shipping Rate:\"]/../following-sibling::td\"}\n  (Session info: chrome=109.0.5414.120)",
+  "stacktrace": "Backtrace:\n\t(No symbol) [0x01146643]\n\t(No symbol) [0x010DBE21]\n\t(No symbol) [0x00FDDA9D]\n\t(No symbol) [0x01011342]\n\t(No symbol) [0x0101147B]\n\t(No symbol) [0x01048DC2]\n\t(No symbol) [0x0102FDC4]\n\t(No symbol) [0x01046B09]\n\t(No symbol) [0x0102FB76]\n\t(No symbol) [0x010049C1]\n\t(No symbol) [0x01005E5D]\n\tGetHandleVerifier [0x013BA142+2497106]\n\tGetHandleVerifier [0x013E85D3+2686691]\n\tGetHandleVerifier [0x013EBB9C+2700460]\n\tGetHandleVerifier [0x011F3B10+635936]\n\t(No symbol) [0x010E4A1F]\n\t(No symbol) [0x010EA418]\n\t(No symbol) [0x010EA505]\n\t(No symbol) [0x010F508B]\n\tBaseThreadInitThunk [0x76C700F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77717BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77717B8E+238]\n"
+}

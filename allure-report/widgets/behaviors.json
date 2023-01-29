@@ -1,1 +1,1 @@
-{"total":1,"items":[]}
+{"total":2,"items":[{"uid":"cac256ab1b3b5e16cff8c0a10154cda7","name":"Users should be able to add items to cart","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}},{"uid":"c919556a3456931742724bbd678f04c1","name":"Users should be able to add items on sale to cart","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}

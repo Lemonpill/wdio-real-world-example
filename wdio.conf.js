@@ -240,8 +240,10 @@ export const config = {
   /**
    * Function to be executed before a test (in Mocha/Jasmine) starts.
    */
-  // beforeTest: function (test, context) {
-  // },
+  beforeTest: async function (test, context) {
+    // General commands to execute before each test
+    await browser.maximizeWindow()
+  },
   /**
    * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling
    * beforeEach in Mocha)
@@ -273,6 +275,9 @@ export const config = {
     if (error) {
       await browser.takeScreenshot();
     }
+    // // take screenshot after each test
+    // await browser.takeScreenshot();
+    // await browser.closeWindow()
   },
 
   /**
