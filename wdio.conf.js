@@ -1,5 +1,6 @@
-import allure from "allure-commandline";
+const allure = require('allure-commandline')
 import fs from "fs";
+// const commands = require('./test/utils/commands')
 
 export const config = {
   //
@@ -230,6 +231,9 @@ export const config = {
    * @param {Array} args arguments that command would receive
    */
   // beforeCommand: function (commandName, args) {
+  //   Object.keys(commands).forEach(k => {
+  //     browser.addCommand(k, commands[k], true)
+  //   })
   // },
   /**
    * Hook that gets executed before the suite starts
@@ -277,7 +281,6 @@ export const config = {
     }
     // // take screenshot after each test
     // await browser.takeScreenshot();
-    // await browser.closeWindow()
   },
 
   /**

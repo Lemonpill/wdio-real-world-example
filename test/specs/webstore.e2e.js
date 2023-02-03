@@ -5,13 +5,13 @@ import AllureReporter from "@wdio/allure-reporter";
 describe("E2E - adding items to cart from marketpage", function() {
   
   // retrying all on failure
-  // must use function keyword in describe
+  // must use function declaration
   // this.retries(1)
 
   it("adds an item to cart and verifies checkout total is correct", async function() {
     // retrying current test on failure
     // must use function declaration
-    this.retries(1)
+    // this.retries(1)
 
     // configure report
     AllureReporter.addFeature("Users should be able to add items to cart")
@@ -48,7 +48,7 @@ describe("E2E - adding items to cart from marketpage", function() {
   it("adds an item on sale to cart and verifies checkout total is correct", async function() {
     // retrying current test on failure
     // must use function declaration
-    this.retries(1)
+    // this.retries(1)
     
     // configure report
     AllureReporter.addFeature("Users should be able to add items on sale to cart")
